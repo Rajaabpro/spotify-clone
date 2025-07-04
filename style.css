@@ -147,6 +147,7 @@ a{
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0 1rem;
+  z-index: 10;
 }
 
 .sticky-nav-icons img {
@@ -215,4 +216,24 @@ a{
   border-top: 1px solid #ffffff;
   opacity: 0.4;
   margin: 1rem auto;
+}
+
+.music-player{
+  display: flex;
+}
+
+.album{
+  width: 25%;
+}
+
+.player{
+  width: 50%;
+}
+
+.controls{
+  width: 25%;
+}
+
+.player-control-icon{
+  height: 1.5rem;
 }
