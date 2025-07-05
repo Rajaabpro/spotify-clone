@@ -230,36 +230,6 @@ a{
   width: 50%;
 }
 
-.controls{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1rem;
-  width: 25%;
-  padding-right: 1.25rem;
-}
-
-.controls i {
-  color: #fff;
-  font-size: 1.2rem;
-  opacity: 0.8;
-  cursor: pointer;
-  transition: opacity 0.2s;
-}
-
-.controls i:hover {
-  opacity: 1;
-}
-
-.volume-bar {
-  width: 5rem;
-  accent-color: #fff;
-  background: transparent;
-  height: 0.25rem;
-  border-radius: 1rem;
-  margin-left: 0.5rem;
-}
-
 .player-controls{
   display: flex;
   justify-content: center;
@@ -316,7 +286,6 @@ a{
   width: 3.5rem;
   height: 3.5rem;
   object-fit: cover;
-  box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.4);
 }
 
 .album-info {
@@ -325,6 +294,7 @@ a{
   justify-content: center;
   margin-left: 0.75rem;
   min-width: 0;
+
 }
 
 .album-title {
@@ -332,9 +302,7 @@ a{
   font-weight: 600;
   font-size: 1rem;
   color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  opacity: 1;
 }
 
 .album-artist {
@@ -344,6 +312,7 @@ a{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  opacity: 0.7;
 }
 
 .album-actions {
@@ -358,9 +327,45 @@ a{
   color: #fff;
   opacity: 0.8;
   cursor: pointer;
-  transition: opacity 0.2s;
 }
 
 .album-actions i:hover {
   opacity: 1;
 }
+
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 25%;
+  padding-right: 1.5rem;
+  height: 100%;
+  min-width: 0;
+  border-radius: 1rem ;
+}
+
+.controls i{
+  opacity: 0.7;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.controls i:hover{
+  opacity: 1;
+}
+
+.volume-bar {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.volume-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.volume-bar::-webkit-slider-runnable-track {
+  background: #fff;
+  height: 0.2rem;
+} 
