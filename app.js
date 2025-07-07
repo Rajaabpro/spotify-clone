@@ -52,9 +52,48 @@
 //     console.log("You got C grade");
 // }
 
-let marks = 20;
+// 
 
-if ((marks > 33 && marks <= 80  ) || !false){
-    console.log("pass");
-    console.log("A+");
+
+
+let str = "HET";
+if ((str === str.toUpperCase()) && str.length >2){
+    console.log(`${str} good string`);
+}
+else{
+    console.log(`${str}not a  good string`);
+}
+
+
+let num = 7;
+
+if ((num % 2 === 1) && ((num + 2 === 9) || (num - 1 === 5))) {
+    console.log("Valid");
+} else {
+    console.log("Invalid");
+}
+
+
+let name = "RAJA";
+
+if ((name === name.toUpperCase()) && (name.length > 3)) {
+    console.log("SHOUT");
+} else {
+    console.log("whisper");
+}
+
+
+let color = "red";
+switch (color) {
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow":
+        console.log("slow down");
+        break;
+    case "green":
+        console.log("go");
+        break
+        default:
+            console.log("invalid color");
 }
