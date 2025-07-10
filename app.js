@@ -222,10 +222,25 @@
 // }
 
 
-let str = "apnacollege";
-console.log(str.slice(4).replace("l","t"));
-let str2 = str.slice(4).replace("l","t");
-console.log(str2.replace("l","t"));
+// let str = "apnacollege";
+// console.log(str.slice(4).replace("l","t"));
+// let str2 = str.slice(4).replace("l","t");
+// console.log(str2.replace("l","t"));
+
+// let student = ["Amanullah","Raj","Rajesh","Rajeshwari"];
+// console.log(student);
+
+let m = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august'];
+console.log(m);
+
+
+
+let arr = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
+console.log(arr[0][1]);
+
+
+
+
 
 
 
