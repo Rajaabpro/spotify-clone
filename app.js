@@ -306,59 +306,58 @@
 
 
 
-// question 1
-let ques = [7,9,0,-2];
-let n = 3;
-let ans = ques.slice(0,n);
-console.log(ans);
 
-// question 2
-let ques2 = [7,9,0,-2];
-let n2 = 3;
-let ans2 = ques2.slice(ques2.length-n2);
-console.log(ans2);
+// // question 1
+// let ques = [7,9,0,-2];
+// let n = 3;
+// let ans = ques.slice(0,n);
+// console.log(ans);
 
-
-// question 3
-let ques3 = "Hello";
-let idx = 2;
-if (ques3[idx] == ques3[idx].toLowerCase()){
-    console.log("lowercase");
-}
-else{
-    console.log("uppercase");
-}
-
-// question 4
-let ques4 = "Hello";
-let idx2 = 2;
-if (ques4[idx2] == ques4[idx2].toUpperCase()){
-    console.log("uppercase");
-}
-else{
-    console.log("lowercase");
-}
-
-// question 5
-let str = prompt("Enter a string");
-console.log(`orignal string = ${str}`);
-console.log(`string without spaces = ${str.trim()}`);
-
-// question 6
-let arr = [1,2,3,4,5];
-let itme = 4;
-arr.findIndex
+// // question 2
+// let ques2 = [7,9,0,-2];
+// let n2 = 3;
+// let ans2 = ques2.slice(ques2.length-n2);
+// console.log(ans2);
 
 
-for (let i = 0; i<=5; i++){
-    console.log(i);
-}
+// // question 3
+// let ques3 = "Hello";
+// let idx = 2;
+// if (ques3[idx] == ques3[idx].toLowerCase()){
+//     console.log("lowercase");
+// }
+// else{
+//     console.log("uppercase");
+// }
+
+// // question 4
+// let ques4 = "Hello";
+// let idx2 = 2;
+// if (ques4[idx2] == ques4[idx2].toUpperCase()){
+//     console.log("uppercase");
+// }
+// else{
+//     console.log("lowercase");
+// }
+
+// // question 5
+// // let str = prompt("Enter a string");
+// console.log(`orignal string = ${str}`);
+// console.log(`string without spaces = ${str.trim()}`);
+
+// // question 6
+// let arr = [1,2,3,4,5];
+// let itme = 4;
+// arr.findIndex
+
+
+// for (let i = 0; i<=5; i++){
+//     console.log(i);
+// }
 
 // odd number
-for (let i = 1; i<=15; i++){
-    if (i%2 == 1){
-        console.log(i);
-    }
+for (let i = 1; i<=15; i=i+2){
+    console.log(i);
 }
 
 
