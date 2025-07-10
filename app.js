@@ -230,17 +230,82 @@
 // let student = ["Amanullah","Raj","Rajesh","Rajeshwari"];
 // console.log(student);
 
-let m = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august'];
-console.log(m);
+// let m = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august'];
+// console.log(m);
 
 
 
-let game = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
-console.log(game[0][1]);
+// let  = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
+// console.log(game[0][1]);
+
+
+// let str = "Hello";
+// if (str == str.toUpperCase()){
+//     console.log("SHOUT");
+// }
+// else{
+//     console.log("whisper");
+// }
 
 
 
 
 
 
+// hassan
+// let a =[ 7,9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let n = 1;
 
+// while(a.length >= n){
+//     console.log(a.pop());
+// }
+
+
+// let a = [7,9,0,-2];
+// let n = 3;
+// let b = a.slice(0,n);
+// console.log(b);
+
+// let arr = [7,9,0,-2];
+// let n = 3;
+// let ans = arr.slice(arr.length-n);
+// console.log(ans);
+
+// let str = "  ";
+// if (str.trim() == ''){
+//     console.log("string is empty");
+// }
+// else{
+//     console.log("string is not empty");
+// }
+
+
+
+// let str2 = "fkHnka";
+// let index = 2;
+// if (str2[index] == str2[index].toLowerCase()){
+//     console.log("lowercase");
+// }
+// else{
+//     console.log("uppercase");
+// }
+
+
+
+
+
+// let str = prompt("Enter a string");
+// console.log(`orignal string = ${str}`);
+// console.log(`string without spaces = ${str.trim()}`);
+
+
+
+// let str3 = "   Hello   ";
+// let str4 = str3.trim();
+// console.log(str4); 
+
+
+let ques = [7,9,0,-2];
+let n = 3;
+let ans = ques.slice(0,n);
+console.log(ans);
