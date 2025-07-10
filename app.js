@@ -356,14 +356,51 @@
 // }
 
 // odd number
-for (let i = 1; i<=15; i=i+2){
-    console.log(i);
+// for (let i = 1; i<=15; i=i+2){
+//     console.log(i);
+// }
+
+// console.log("even number");
+
+// for (let i = 2; i<=10; i=i+2){
+//     console.log(i);
+// }
+
+// for (let i = 1; i>=0; i=i+2){
+//     console.log(i);
+// }
+
+// for (let i=1; i<=5; i++){
+//     console.log(i);
+// }
+
+// for(let i=1; ; i++){
+//     console.log(i);
+// }
+
+
+// let num = prompt("Enter a number");
+// for (let i = num; i<=num*10; i=i+num){
+//     console.log(i);
+// }
+
+for (let i = 1; i<=3; i++){
+    console.log(`outer loop ${i}`);
+    for (let j = 1; j<=3; j++){
+        console.log(`inner loop ${j}`);
+
+    }
 }
 
+// for (let i = 1; i<=10; i++){
+//     console.log(`${num} * ${i} = ${num*i}`);
+// }
 
 
 
 
 
 
-// question 7
+
+
+// for (let i = 1; i<=10; i++){}
