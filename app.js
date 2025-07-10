@@ -235,8 +235,8 @@ console.log(m);
 
 
 
-let arr = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
-console.log(arr[0][1]);
+let game = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
+console.log(game[0][1]);
 
 
 
