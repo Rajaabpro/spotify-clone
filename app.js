@@ -397,9 +397,17 @@ for (let i = 1; i<=3; i++){
 // }
 
 
+const favMovie = "avatar";
+let guess = prompt("guess my fav movie");
+while ((guess !== favMovie) && (guess !== "quit")){
+    guess = prompt("try again");
+    if (guess === favMovie){
+        console.log("congrats");
+    }else{
+        console.log("you quit the game");
+    }
 
-
-
+}
 
 
 
