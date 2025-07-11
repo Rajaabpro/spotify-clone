@@ -417,7 +417,7 @@
 // for (let i = 1; i<=10; i++){}
 
 let fruit = ["apple","banana","cherry","mango","orange"];
-for (let i = 0; i<fruit.length; i++){
+for (let i = 4; i>=fruit.length; i--){
     console.log(i, fruit[i]);
 }
 
