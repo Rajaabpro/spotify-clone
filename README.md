@@ -90,7 +90,7 @@ spotify-clone/
 
 1. **Clone or Download**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Rajaabpro/spotify-clone.git>
    cd spotify-clone
    ```
 2. **Open `index.html`** in your browser (no build step needed)
