@@ -379,39 +379,51 @@
 // }
 
 
-let num = prompt("Enter a number");
-for (let i = num; i<=num*10; i=i+num){
-    console.log(i);
-}
+// let num = prompt("Enter a number");
+// for (let i = num; i<=num*10; i=i+num){
+//     console.log(i);
+// }
 
-for (let i = 1; i<=3; i++){
-    console.log(`outer loop ${i}`);
-    for (let j = 1; j<=3; j++){
-        console.log(`inner loop ${j}`);
+// for (let i = 1; i<=3; i++){
+//     console.log(`outer loop ${i}`);
+//     for (let j = 1; j<=3; j++){
+//         console.log(`inner loop ${j}`);
 
-    }
-}
+//     }
+// }
 
 // for (let i = 1; i<=10; i++){
 //     console.log(`${num} * ${i} = ${num*i}`);
 // }
 
 
-const favMovie = "avatar";
-let guess = prompt("guess my fav movie");
-while ((guess !== favMovie)){
-    if (guess === "quit"){
-        console.log("you quit the game");
-        break;
-    }
-    else{
-        guess = prompt("try again");
-        if (guess === favMovie){
-            console.log("congrats");
-        }
-    }
-}
+// const favMovie = "avatar";
+// let guess = prompt("guess my fav movie");
+// while ((guess !== favMovie)){
+//     if (guess === "quit"){
+//         console.log("you quit the game");
+//         break;
+//     }
+//     else{
+//         guess = prompt("try again");
+//         if (guess === favMovie){
+//             console.log("congrats");
+//         }
+//     }
+// }
 
 
 
 // for (let i = 1; i<=10; i++){}
+
+let fruit = ["apple","banana","cherry","mango","orange"];
+for (let i = 0; i<fruit.length; i++){
+    console.log(i, fruit[i]);
+}
+
+
+
+
+
+
+// let fruit = ["apple","banana","cherry","mango","orange"];
