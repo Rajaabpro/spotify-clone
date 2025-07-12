@@ -416,21 +416,37 @@
 
 // for (let i = 1; i<=10; i++){}
 
-let fruit = ["apple","banana","cherry","mango","orange"];
-for (let i = 4; i>=fruit.length; i--){
-    console.log(i, fruit[i]);
-}
+// let fruit = ["apple","banana","cherry","mango","orange"];
+// for (let i = 4; i>=fruit.length; i--){
+//     console.log(i, fruit[i]);
+// }
 
 
-let hero = [["batman","superman","wonder woman"],["thor","hulk","iron man"]];
-for (let i = 0; i<hero.length; i++){
-    console.log(`List #${i}`);
-    for (let j = 0; j<hero[i].length; j++){
-        console.log(hero[i][j]);
+// let hero = [["batman","superman","wonder woman"],["thor","hulk","iron man"]];
+// for (let i = 0; i<hero.length; i++){
+//     console.log(`List #${i}`);
+//     for (let j = 0; j<hero[i].length; j++){
+//         console.log(`j=${j}, : value = ${hero[i][j]}`);
+//     }
+// }
+
+// let student = [["Rjaab", 100], ["Ali", 90], ["Ahmed", 80]];
+// for (let i = 0; i<student.length; i++){
+//     console.log(`List #${i}`);
+//     for (let j = 0; j<student[i].length; j++){
+//         console.log(`j=${j}, : value = ${student[i][j]}`);
+//     }
+// }
+
+
+let arr = [1,2,3,4,5,6,2,3];
+let num = 2;
+for (let i =0; i<arr.length; i++){
+    if (arr[i] == num){
+        arr.splice(i,1);
     }
 }
-
-
+console.log(arr);
 
 
 // let fruit = ["apple","banana","cherry","mango","orange"];
