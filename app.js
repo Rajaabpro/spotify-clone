@@ -422,6 +422,10 @@ for (let i = 4; i>=fruit.length; i--){
 }
 
 
+let hero = [["batman","superman","wonder woman"],["thor","hulk","iron man"]];
+for (let i = 0; i<hero.length; i++){
+    console.log(`List #${i}`);
+}
 
 
 
