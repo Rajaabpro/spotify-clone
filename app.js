@@ -25,7 +25,7 @@
 // if (popcornSize === "xlarge"){
 //     console.log("The price is Rs. 250");
 // }
-// else if (popcornSize === "large"){ 
+// else if (popcornSize === "large"){
 //     console.log("The price is Rs. 200");
 // }
 // else if (popcornSize === "medium"){
@@ -52,9 +52,7 @@
 //     console.log("You got C grade");
 // }
 
-// 
-
-
+//
 
 // let str = "HET";
 // if ((str === str.toUpperCase()) && str.length >2){
@@ -64,7 +62,6 @@
 //     console.log(`${str}not a  good string`);
 // }
 
-
 // let num = 7;
 
 // if ((num % 2 === 1) && ((num + 2 === 9) || (num - 1 === 5))) {
@@ -73,7 +70,6 @@
 //     console.log("Invalid");
 // }
 
-
 // let userName = "RAJA";
 
 // if ((userName === userName.toUpperCase()) && (userName.length > 3)) {
@@ -81,7 +77,6 @@
 // } else {
 //     console.log("whisper");
 // }
-
 
 // let color = "red";
 // switch (color) {
@@ -98,7 +93,6 @@
 //             console.log("invalid color");
 // }
 
-
 // let number = 50;
 // if(number%10 === 0){
 //     console.log("good ");
@@ -110,7 +104,6 @@
 // let name = prompt("Enter your name");
 // let age = prompt("Enter your age");
 // alert(`${name} is ${age} years old.`);
-
 
 // let quarter = 4
 // switch (quarter) {
@@ -138,8 +131,6 @@
 //     console.log("silver string");
 // }
 
-
-
 // let a = 10;
 // let b = 20;
 // let c = 30;
@@ -153,12 +144,6 @@
 // else{
 //     console.log(`${c} is greater`);
 // }
-
-
-
-
-
-
 
 // let a = 10;
 // let b = 0;
@@ -181,7 +166,6 @@
 //     }
 // }
 
-
 // let yourNum = 5;
 // if (yourNum %2 == 0){
 //     console.log(`${yourNum} is even`);
@@ -189,7 +173,6 @@
 // else{
 //     console.log(`${yourNum} is odd`);
 // }
-
 
 // let num = 4;
 // if (num % 3 == 0){
@@ -213,14 +196,12 @@
 //     console.log("You are a senior citizen");
 // }
 
-
 // if("A"){
 //     console.log("true");
 // }
 // else{
 //     console.log("false");
 // }
-
 
 // let str = "apnacollege";
 // console.log(str.slice(4).replace("l","t"));
@@ -233,11 +214,8 @@
 // let m = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august'];
 // console.log(m);
 
-
-
 // let  = [ ["X",null,"O"], [null,"X",null], ["O",null,"X"] ]
 // console.log(game[0][1]);
-
 
 // let str = "Hello";
 // if (str == str.toUpperCase()){
@@ -247,11 +225,6 @@
 //     console.log("whisper");
 // }
 
-
-
-
-
-
 // hassan
 // let a =[ 7,9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let n = 1;
@@ -259,7 +232,6 @@
 // while(a.length >= n){
 //     console.log(a.pop());
 // }
-
 
 // let a = [7,9,0,-2];
 // let n = 3;
@@ -279,8 +251,6 @@
 //     console.log("string is not empty");
 // }
 
-
-
 // let str2 = "fkHnka";
 // let index = 2;
 // if (str2[index] == str2[index].toLowerCase()){
@@ -290,22 +260,13 @@
 //     console.log("uppercase");
 // }
 
-
-
-
-
 // let str = prompt("Enter a string");
 // console.log(`orignal string = ${str}`);
 // console.log(`string without spaces = ${str.trim()}`);
 
-
-
 // let str3 = "   Hello   ";
 // let str4 = str3.trim();
-// console.log(str4); 
-
-
-
+// console.log(str4);
 
 // // question 1
 // let ques = [7,9,0,-2];
@@ -318,7 +279,6 @@
 // let n2 = 3;
 // let ans2 = ques2.slice(ques2.length-n2);
 // console.log(ans2);
-
 
 // // question 3
 // let ques3 = "Hello";
@@ -350,7 +310,6 @@
 // let itme = 4;
 // arr.findIndex
 
-
 // for (let i = 0; i<=5; i++){
 //     console.log(i);
 // }
@@ -378,7 +337,6 @@
 //     console.log(i);
 // }
 
-
 // let num = prompt("Enter a number");
 // for (let i = num; i<=num*10; i=i+num){
 //     console.log(i);
@@ -396,7 +354,6 @@
 //     console.log(`${num} * ${i} = ${num*i}`);
 // }
 
-
 // const favMovie = "avatar";
 // let guess = prompt("guess my fav movie");
 // while ((guess !== favMovie)){
@@ -412,15 +369,12 @@
 //     }
 // }
 
-
-
 // for (let i = 1; i<=10; i++){}
 
 // let fruit = ["apple","banana","cherry","mango","orange"];
 // for (let i = 4; i>=fruit.length; i--){
 //     console.log(i, fruit[i]);
 // }
-
 
 // let hero = [["batman","superman","wonder woman"],["thor","hulk","iron man"]];
 // for (let i = 0; i<hero.length; i++){
@@ -430,7 +384,7 @@
 //     }
 // }
 
-// let student = [["Rjaab", 100], ["Ali", 90], ["Ahmed", 80]];
+// let student = [["fiza", 100], ["Ali", 90], ["Rajaab", 80]];
 // for (let i = 0; i<student.length; i++){
 //     console.log(`List #${i}`);
 //     for (let j = 0; j<student[i].length; j++){
@@ -438,15 +392,23 @@
 //     }
 // }
 
+// let arr = [1,2,3,4,5,6,2,3];
+// let num = 2;
+// for (let i =0; i<arr.length; i++){
+//     if (arr[i] == num){
+//         arr.splice(i,1);
+//     }
+// }
+// console.log(arr);
 
-let arr = [1,2,3,4,5,6,2,3];
-let num = 2;
-for (let i =0; i<arr.length; i++){
-    if (arr[i] == num){
-        arr.splice(i,1);
-    }
+let arr = [];
+let req = prompt("please enter your request");
+
+while (true) {
+  if (req === "quit") {
+    console.log("you quit the app");
+    break;
+  }
 }
-console.log(arr);
-
 
 // let fruit = ["apple","banana","cherry","mango","orange"];
