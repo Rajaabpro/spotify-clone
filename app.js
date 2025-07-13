@@ -411,57 +411,25 @@
 //   }
 // }
 
-const student ={
-    name: "Rajaab",
-    age: 20,
-    city: "islamabad",
-    marks: 100
-}
+// 
 
-const classinfo = {
-    aman : {
-        age: 20,
-        city: "islamabad",
-        marks: 100
-    },
-    fiza : {
-        age: 20,
-        city: "islamabad",
-        marks: 100
-    },
-    ali : {
-        age: 20,
-        city: "islamabad",
-        marks: 100
+const max = prompt("enter the max number");
+const random = Math.floor(Math.random() * max);
+console.log(random);
+
+let guess = prompt("guess the number");
+
+while (true){
+    if (guess === "quit"){
+        console.log("you quit the game");
+        break;
+    }
+    if (guess == random){
+        console.log("you are right : congrats !! random number was : ", random);
+        break;
+    }
+    else{
+       guess = prompt("your guess was wrong try again");
     }
 }
 
-
-const obj = {
-    1: "a",
-    2: "b",
-    true: "c",
-    null: "d",
-    undefined: "e"
-}
-
-const classinfo2 = [
-    {
-        name: "ali",
-        age: 20,
-        city: "islamabad",
-        marks: 100
-    },
-    {
-        name: "fiza",
-        age: 20,
-        city: "islamabad",
-        marks: 100
-    },
-    {
-        name: "kashif",
-        age: 20,
-        city: "islamabad",
-        marks: 100
-    }
-]
