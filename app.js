@@ -421,11 +421,11 @@ const student ={
 }
 
 const post = {
-    username: "Rajaab",
+    username: "@Rajaab",
     content: "Hello, I am Rajaab",
     likes: 100,
     repost: 10,
-    tags: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+    tags: ["@Rajaab", "@Ali", "@Ahmed"]
 }
 
 
