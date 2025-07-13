@@ -421,5 +421,3 @@ const student ={
 }
 
 
-
-// let fruit = ["apple","banana","cherry","mango","orange"];
