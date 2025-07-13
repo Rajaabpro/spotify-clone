@@ -427,8 +427,11 @@ while (true){
     if (guess == random){
         console.log("you are right : congrats !! random number was : ", random);
         break;
-    }
-    else{
+    }else if (guess > random){
+        prompt("your guess was too high try again");
+    }else if (guess < random){
+        prompt("your guess was too small try again");
+    }else{
        guess = prompt("your guess was wrong try again");
     }
 }
