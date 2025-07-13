@@ -411,4 +411,15 @@ while (true) {
   }
 }
 
+const student ={
+    name: "Rajaab",
+    age: 20,
+    city: "Karachi",
+    country: "Pakistan",
+    isStudent: true,
+    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+}
+
+
+
 // let fruit = ["apple","banana","cherry","mango","orange"];
