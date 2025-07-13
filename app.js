@@ -401,15 +401,15 @@
 // }
 // console.log(arr);
 
-let arr = [];
-let req = prompt("please enter your request");
+// let arr = [];
+// let req = prompt("please enter your request");
 
-while (true) {
-  if (req === "quit") {
-    console.log("you quit the app");
-    break;
-  }
-}
+// while (true) {
+//   if (req === "quit") {
+//     console.log("you quit the app");
+//     break;
+//   }
+// }
 
 const student ={
     name: "Rajaab",
@@ -418,6 +418,14 @@ const student ={
     country: "Pakistan",
     isStudent: true,
     skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+}
+
+const post = {
+    username: "Rajaab",
+    content: "Hello, I am Rajaab",
+    likes: 100,
+    repost: 10,
+    tags: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
 }
 
 
