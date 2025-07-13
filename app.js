@@ -445,3 +445,23 @@ const obj = {
     undefined: "e"
 }
 
+const classinfo2 = [
+    {
+        name: "ali",
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    },
+    {
+        name: "fiza",
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    },
+    {
+        name: "kashif",
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    }
+]
