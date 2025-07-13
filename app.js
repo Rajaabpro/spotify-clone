@@ -414,18 +414,34 @@
 const student ={
     name: "Rajaab",
     age: 20,
-    city: "Karachi",
-    country: "Pakistan",
-    isStudent: true,
-    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+    city: "islamabad",
+    marks: 100
 }
 
-const post = {
-    username: "@Rajaab",
-    content: "Hello, I am Rajaab",
-    likes: 100,
-    repost: 10,
-    tags: ["@Rajaab", "@Ali", "@Ahmed"]
+const classinfo = {
+    aman : {
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    },
+    fiza : {
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    },
+    ali : {
+        age: 20,
+        city: "islamabad",
+        marks: 100
+    }
 }
 
+
+const obj = {
+    1: "a",
+    2: "b",
+    true: "c",
+    null: "d",
+    undefined: "e"
+}
 
