@@ -414,8 +414,8 @@
 // 
 
 const max = prompt("enter the max number");
-const random = Math.floor(Math.random() * max);
-console.log(random);
+
+const random = Math.floor(Math.random() * max) + 1;
 
 let guess = prompt("guess the number");
 
@@ -428,9 +428,9 @@ while (true){
         console.log("you are right : congrats !! random number was : ", random);
         break;
     }else if (guess > random){
-        prompt("your guess was too high try again");
+        prompt("hint:your guess was too high try again");
     }else if (guess < random){
-        prompt("your guess was too small try again");
+        prompt("hint:your guess was too small try again");
     }else{
        guess = prompt("your guess was wrong try again");
     }
