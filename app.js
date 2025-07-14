@@ -413,25 +413,56 @@
 
 // 
 
-const max = prompt("enter the max number");
 
-const random = Math.floor(Math.random() * max) + 1;
+//Number guessing game
+// const max = prompt("enter the max number");
 
-let guess = prompt("guess the number");
+// const random = Math.floor(Math.random() * max) + 1;
 
-while (true){
-    if (guess === "quit"){
-        console.log("you quit the game");
-        break;
-    }
-    if (guess == random){
-        console.log("you are right : congrats !! random number was : ", random);
-        break;
-    }else if (guess < random){
-        guess = prompt("hint:your guess was too small try again (type 'quit' to exit)");
-    }else{
-        guess = prompt("hint:your guess was too high try again (type 'quit' to exit)");
-    }
+// let guess = prompt("guess the number");
+
+// while (true){
+//     if (guess === "quit"){
+//         console.log("you quit the game");
+//         break;
+//     }
+//     if (guess == random){
+//         console.log("you are right : congrats !! random number was : ", random);
+//         break;
+//     }else if (guess < random){
+//         guess = prompt("hint:your guess was too small try again (type 'quit' to exit)");
+//     }else{
+//         guess = prompt("hint:your guess was too high try again (type 'quit' to exit)");
+//     }
     
+// }
+
+//Dice game
+const dice = Math.floor(Math.random() * 6) + 1;
+console.log(dice);
+while (true){
+    if (dice === 6){
+        console.log("you won the game");
+        break;
+    }
+    else{
+        dice = Math.floor(Math.random() * 6) + 1;
+        console.log(dice);
+    }
 }
+
+const car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    color: "Red",
+    price: 100000,
+    name: "car"
+}
+
+console.log(car.name);
+
+
+
+
 
