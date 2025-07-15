@@ -438,31 +438,67 @@
 // }
 
 //Dice game
-const dice = Math.floor(Math.random() * 6) + 1;
-console.log(dice);
-while (true){
-    if (dice === 6){
-        console.log("you won the game");
-        break;
-    }
-    else{
-        dice = Math.floor(Math.random() * 6) + 1;
-        console.log(dice);
-    }
+// const dice = Math.floor(Math.random() * 6) + 1;
+// console.log(dice);
+// while (true){
+//     if (dice === 6){
+//         console.log("you won the game");
+//         break;
+//     }
+//     else{
+//         dice = Math.floor(Math.random() * 6) + 1;
+//         console.log(dice);
+//     }
+// }
+
+// const car = {
+//     brand: "Toyota",
+//     model: "Corolla",
+//     year: 2020,
+//     color: "Red",
+//     price: 100000,
+//     name: "car"
+// }
+
+// console.log(car.name);
+
+// const person = {
+//     name: "Rajaab",
+//     age: 20,
+//     city: "Islamabad",
+//     country: "Pakistan",
+//     isStudent: true,
+// }
+
+// console.log(person.name);
+
+function printPoem(){
+    console.log("Roses are red");
+    console.log("Violets are blue");
+    console.log("Sugar is sweet");
+    console.log("And so are you");
 }
 
-const car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2020,
-    color: "Red",
-    price: 100000,
-    name: "car"
+printPoem();
+
+
+function diceGame(){
+    const dice = Math.floor(Math.random() * 6) + 1;
+    console.log(dice);
+    while (true){
+        if (dice === 6){
+            console.log("you won the game");
+            break;
+        }
+        else{
+            dice = Math.floor(Math.random() * 6) + 1;
+            console.log(dice);
+        }
+    }
+    
 }
 
-console.log(car.name);
-
-
+diceGame();
 
 
 
