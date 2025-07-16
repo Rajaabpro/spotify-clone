@@ -472,33 +472,60 @@
 
 // console.log(person.name);
 
-function printPoem(){
-    console.log("Roses are red");
-    console.log("Violets are blue");
-    console.log("Sugar is sweet");
-    console.log("And so are you");
-}
+// function printPoem(){
+//     console.log("Roses are red");
+//     console.log("Violets are blue");
+//     console.log("Sugar is sweet");
+//     console.log("And so are you");
+// }
 
-printPoem();
+// printPoem();
 
 
-function diceGame(){
-    const dice = Math.floor(Math.random() * 6) + 1;
-    console.log(dice);
-    while (true){
-        if (dice === 6){
-            console.log("you won the game");
-            break;
-        }
-        else{
-            dice = Math.floor(Math.random() * 6) + 1;
-            console.log(dice);
-        }
-    }
+// function diceGame(){
+//     let dice = Math.floor(Math.random() * 6) + 1;
+//     console.log(dice);
+//     while (true){
+//         if (dice === 6){
+//             console.log("you won the game");
+//             break;
+//         }
+//         else{
+//             dice = Math.floor(Math.random() * 6) + 1;
+//             console.log(dice);
+//         }
+//     }
     
+// }
+
+// diceGame();
+
+// function add(a,b){
+//     console.log(`${a} + ${b} = ${a+b}`);
+// }
+
+// add(10,20);
+
+// function average(a,b,c){
+//     let avg = (a+b+c)/3;
+//     console.log(avg);
+// }
+
+// average(10,20,30);
+
+
+function multiply(n){
+    for (let i = 1; i<=10; i++){
+        console.log(`${n} * ${i} = ${n*i}`);
+    }   
 }
 
-diceGame();
-
-
+multiply(4);
+function getsum(n){
+    let sum = 0;
+    for (let i = 1; i<=n; i++){
+        sum = sum+i;
+    }
+    return sum;
+}
 
