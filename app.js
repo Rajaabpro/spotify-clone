@@ -514,47 +514,47 @@
 // average(10,20,30);
 
 
-function multiply(n){
-    for (let i = 1; i<=10; i++){
-        console.log(`${n} * ${i} = ${n*i}`);
-    }   
-}
+// function multiply(n){
+//     for (let i = 1; i<=10; i++){
+//         console.log(`${n} * ${i} = ${n*i}`);
+//     }   
+// }
 
-multiply(4);
-function getsum(n){
-    let sum = 0;
-    for (let i = 1; i<=n; i++){
-        sum = sum+i;
-    }
-    return sum;
-}
+// multiply(4);
+// function getsum(n){
+//     let sum = 0;
+//     for (let i = 1; i<=n; i++){
+//         sum = sum+i;
+//     }
+//     return sum;
+// }
 
 
 
-let str = ["hi","hello","hey"];
+// let str = ["hi","hello","hey"];
 
-function concat(str){
-    let result = "";
-    for(let i = 0; i<str.length; i++){
-        result = result + str[i];
-    }
-    return result;
-}
+// function concat(str){
+//     let result = "";
+//     for(let i = 0; i<str.length; i++){
+//         result = result + str[i];
+//     }
+//     return result;
+// }
 
  
-let greet = "hello";
+// let greet = "hello";
 
-function changeGreet(){
-    let greet = "hi";
-    console.log(greet);
-    function innerGreet(){
-        console.log(greet);
+// function changeGreet(){
+//     let greet = "hi";
+//     console.log(greet);
+//     function innerGreet(){
+//         console.log(greet);
     
-    }
-}
-console.log(greet);
+//     }
+// }
+// console.log(greet);
 
-changeGreet();
+// changeGreet();
 
 
 function multipleGreet(func, count){
@@ -563,7 +563,7 @@ function multipleGreet(func, count){
     }
 }
 
-function greet(){
+let greet = function(){
     console.log("hello");
 }
 
