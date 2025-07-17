@@ -529,3 +529,41 @@ function getsum(n){
     return sum;
 }
 
+
+
+let str = ["hi","hello","hey"];
+
+function concat(str){
+    let result = "";
+    for(let i = 0; i<str.length; i++){
+        result = result + str[i];
+    }
+    return result;
+}
+
+ 
+let greet = "hello";
+
+function changeGreet(){
+    let greet = "hi";
+    console.log(greet);
+    function innerGreet(){
+        console.log(greet);
+    
+    }
+}
+console.log(greet);
+
+changeGreet();
+
+function hasseb(){
+    let froud = "hasseb";
+    console.log(`Fiza gave everything to ${froud} is very nice and she is a good girl.. but ${froud} is a bitch`);
+    function innerHasseb(){
+        console.log(`but hasseb bitch do not give anything to ${froud}`);
+    }
+    innerHasseb();
+    return froud;
+}
+
+hasseb();
