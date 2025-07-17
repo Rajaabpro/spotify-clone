@@ -556,14 +556,15 @@ console.log(greet);
 
 changeGreet();
 
-function hasseb(){
-    let froud = "hasseb";
-    console.log(`Fiza gave everything to ${froud} is very nice and she is a good girl.. but ${froud} is a bitch`);
-    function innerHasseb(){
-        console.log(`but hasseb bitch do not give anything to ${froud}`);
+
+function multipleGreet(func, count){
+    for (let i = 0; i<count; i++){
+        func();
     }
-    innerHasseb();
-    return froud;
 }
 
-hasseb();
+function greet(){
+    console.log("hello");
+}
+
+multipleGreet(greet, 5);
