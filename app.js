@@ -568,3 +568,20 @@ let greet = function(){
 }
 
 multipleGreet(greet, 5);
+
+
+let odd = function(n){
+    console.log(n%2 == 0);
+}
+ 
+
+
+const calculator = {
+    add: function(a,b){
+        return a+b;
+    },
+    subtract: function(a,b){
+        return a-b;
+    },
+    multiply: function(a,b){}
+}
