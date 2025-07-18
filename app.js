@@ -577,11 +577,15 @@ let odd = function(n){
 
 
 const calculator = {
+    num1: 55,
+    num2: 10,
     add: function(a,b){
         return a+b;
     },
     subtract: function(a,b){
         return a-b;
     },
-    multiply: function(a,b){}
+    multiply: function(a,b){
+        return a*b;
+    }
 }
