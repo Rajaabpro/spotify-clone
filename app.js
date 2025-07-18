@@ -591,7 +591,7 @@ const calculator = {
 }
 
 const cube = (n) => {
-    return n*n*n;
+    n*n*n;
 }
 
 const hello = () => {
