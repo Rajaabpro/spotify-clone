@@ -597,3 +597,16 @@ const cube = (n) => {
 const hello = () => {
     console.log("hello");
 }
+
+console.log("hi there");
+
+setTimeout(() => {
+    console.log("hello");
+}, 4000);
+
+console.log("bye");
+
+
+
+
+
