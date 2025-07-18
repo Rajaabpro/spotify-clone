@@ -589,3 +589,11 @@ const calculator = {
         return a*b;
     }
 }
+
+const cube = (n) => {
+    return n*n*n;
+}
+
+const hello = () => {
+    console.log("hello");
+}
