@@ -600,11 +600,11 @@ const hello = () => {
 
 console.log("hi there");
 
-setTimeout(() => {
+let id =setTimeout(() => {
     console.log("hello");
 }, 4000);
 
-console.log("bye");
+console.log(id);
 
 
 
