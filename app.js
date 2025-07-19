@@ -520,6 +520,7 @@
 //     }   
 // }
 
+
 // multiply(4);
 // function getsum(n){
 //     let sum = 0;
@@ -606,7 +607,8 @@ let id =setTimeout(() => {
 
 console.log(id);
 
+let id2 = setInterval(() => {
+    console.log("hello");
+}, 1000);
 
-
-
-
+clearInterval(id2);
