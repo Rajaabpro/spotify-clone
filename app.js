@@ -557,58 +557,67 @@
 
 // changeGreet();
 
+// function multipleGreet(func, count){
+//     for (let i = 0; i<count; i++){
+//         func();
+//     }
+// }
 
-function multipleGreet(func, count){
-    for (let i = 0; i<count; i++){
-        func();
-    }
-}
+// let greet = function(){
+//     console.log("hello");
+// }
 
-let greet = function(){
-    console.log("hello");
-}
-
-multipleGreet(greet, 5);
+// multipleGreet(greet, 5);
 
 
-let odd = function(n){
-    console.log(n%2 == 0);
-}
+// let odd = function(n){
+//     console.log(n%2 == 0);
+// }
  
+// const calculator = {
+//     num1: 55,
+//     num2: 10,
+//     add: function(a,b){
+//         return a+b;
+//     },
+//     subtract: function(a,b){
+//         return a-b;
+//     },
+//     multiply: function(a,b){
+//         return a*b;
+//     }
+// }
+
+// const cube = (n) => {
+//     n*n*n
+// }
+
+// const hello = () => {
+//     console.log("hello");
+// }
+
+// console.log("hi there");
+
+// let id =setTimeout(() => {
+//     console.log("hello");
+// }, 4000);
+// console.log(id);
 
 
-const calculator = {
-    num1: 55,
-    num2: 10,
-    add: function(a,b){
-        return a+b;
-    },
-    subtract: function(a,b){
-        return a-b;
-    },
-    multiply: function(a,b){
-        return a*b;
-    }
-}
+// let id2 = setInterval(() => {
+//     console.log("hello");
+// }, 1000);
 
-const cube = (n) => {
-    n*n*n
-}
+// clearInterval(id2);
 
-const hello = () => {
+const square = n => n*n;
+console.log(square(5));
+
+let id = setInterval(() => {
     console.log("hello");
-}
+}, 2000);
+clearInterval(id);
 
-console.log("hi there");
-
-let id =setTimeout(() => {
-    console.log("hello");
-}, 4000);
-
-console.log(id);
-
-let id2 = setInterval(() => {
-    console.log("hello");
-}, 1000);
-
-clearInterval(id2);
+setTimeout(() => {
+    clearInterval(id);
+}, 10000);
