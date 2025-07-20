@@ -610,14 +610,42 @@
 
 // clearInterval(id2);
 
-const square = n => n*n;
-console.log(square(5));
 
-let id = setInterval(() => {
-    console.log("hello");
-}, 2000);
-clearInterval(id);
 
-setTimeout(() => {
-    clearInterval(id);
-}, 10000);
+// let id = setInterval(() => {
+//     console.log("hello");
+// }, 2000);
+// clearInterval(id);
+
+// setTimeout(() => {
+//     clearInterval(id);
+//     console.log("stop");
+// }, 10000);
+
+
+// let arr = [
+//     {name: "Rajaab", marks: 20},
+//     {name: "Ali", marks: 21},
+//     {name: "Ahmed", marks: 22},
+// ]
+
+// arr.forEach(student => {
+//     console.log(student.marks);
+// })
+
+let a = [1,2,3,4];
+let sum = a.reduce((acc,curr) => {
+    return acc+curr;
+},0);
+console.log(sum);
+
+
+
+let max = arr.reduce((max,el) => {
+    if (max > el){
+        return el;
+    }
+    else{
+        return max;
+    }
+});
