@@ -649,3 +649,21 @@ let max = arr.reduce((max,el) => {
         return max;
     }
 });
+
+let num = [10,20,30,40,50];
+
+let ans = num.every(el => el%2 == 0);
+console.log(ans);
+
+let min = num.min((min, el) => {
+    if (min < el){
+        return min;
+    }
+    else{
+        return el;
+    }
+});
+console.log(min);
+
+
+
