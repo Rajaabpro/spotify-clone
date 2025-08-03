@@ -689,14 +689,22 @@
     
 //     getFact();
  
+let btn = document.getElementById("btn");
+btn.addEventListener("click", async () => {
+    let fact = await getFact();
+    console.log(fact);
+    let p = document.getElementById("fact");
+    p.innerText = fact;
+    
+});
+
 let url = "https://catfact.ninja/fact";
 async function getFact(){
     try{
         let res = await axios.get(url);
-        console.log(res);
+        return res.data.fact;
     }catch(e){
         console.log("error - ", e);
+        return "No fact found";
     }
 }
-
-getFact();
