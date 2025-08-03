@@ -633,37 +633,37 @@
 //     console.log(student.marks);
 // })
 
-let a = [1,2,3,4];
-let sum = a.reduce((acc,curr) => {
-    return acc+curr;
-},0);
-console.log(sum);
+// let a = [1,2,3,4];
+// let sum = a.reduce((acc,curr) => {
+//     return acc+curr;
+// },0);
+// console.log(sum);
 
 
 
-let max = arr.reduce((max,el) => {
-    if (max > el){
-        return el;
-    }
-    else{
-        return max;
-    }
-});
+// let max = arr.reduce((max,el) => {
+//     if (max > el){
+//         return el;
+//     }
+//     else{
+//         return max;
+//     }
+// });
 
-let num = [10,20,30,40,50];
+// let num = [10,20,30,40,50];
 
-let ans = num.every(el => el%2 == 0);
-console.log(ans);
+// let ans = num.every(el => el%2 == 0);
+// console.log(ans);
 
-let min = num.min((min, el) => {
-    if (min < el){
-        return min;
-    }
-    else{
-        return el;
-    }
-});
-console.log(min);
+// let min = num.min((min, el) => {
+//     if (min < el){
+//         return min;
+//     }
+//     else{
+//         return el;
+//     }
+// });
+// console.log(min);
 
 
 
