@@ -1,7 +1,7 @@
 # Spotify Clone 🎵
 
 <p align="center">
-  <img src="Assets/logo.png" alt="Spotify Logo" width="120" />
+  <img src="assets/logo.png" alt="Spotify Logo" width="120" />
 </p>
 
 <p align="center">
@@ -26,14 +26,14 @@ This project is a static, pixel-perfect clone of the Spotify web player interfac
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Assets/card1img.jpeg" alt="Home - Featured playlists" width="80%"/>
+  <img src="assets/card1img.jpeg" alt="Home - Featured playlists" width="80%"/>
   <br><br>
-  <img src="Assets/card2img.jpeg" alt="Browse - Album card" width="80%"/>
+  <img src="assets/card2img.jpeg" alt="Browse - Album card" width="80%"/>
   <br><br>
-  <img src="Assets/play_musicbar.png" alt="Player bar UI" width="80%"/>
+  <img src="assets/play_musicbar.png" alt="Player bar UI" width="80%"/>
 </p>
 
-> **Note:** All UI icons and album covers are stored in the `Assets/` folder.
+> **Note:** All UI icons and album covers are stored in the `assets/` folder.
 
 ---
 
@@ -64,7 +64,7 @@ This project is a static, pixel-perfect clone of the Spotify web player interfac
 spotify-clone/
 ├── index.html          # Main HTML file
 ├── style.css           # Stylesheet
-├── Assets/             # All images/icons
+├── assets/             # All images/icons
 │   ├── logo.png
 │   ├── card1img.jpeg ... card6img.jpeg
 │   ├── player_icon1.png ... player_icon5.png
@@ -82,8 +82,8 @@ spotify-clone/
 
 ## 🖼️ Asset Highlights
 
-- **Logo & Icons:** All custom icons and the Spotify logo are in `Assets/`
-- **Album Covers:** Demo album images in `Assets/`
+- **Logo & Icons:** All custom icons and the Spotify logo are in `assets/`
+- **Album Covers:** Demo album images in `assets/`
 - **Player Controls:** PNG icons for play, pause, skip, etc.
 
 ---
@@ -115,14 +115,14 @@ spotify-clone/
 ---
 
 <p align="center">
-  <img src="Assets/img.png" alt="Demo Screenshot" width="80%" />
+  <img src="assets/img.png" alt="Demo Screenshot" width="80%" />
   <br>
   <em>Demo screenshot of the Spotify Clone UI</em>
 </p>
 
 ## 💡 Customization
 
-- Add your own album covers or icons to `Assets/`
+- Add your own album covers or icons to `assets/`
 - Edit `index.html` and `style.css` for new sections or styles
 - All UI elements are static—add JS for interactivity if desired
 
