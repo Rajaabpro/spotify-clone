@@ -114,6 +114,12 @@ spotify-clone/
 
 ---
 
+<p align="center">
+  <img src="Assets/img.png" alt="Demo Screenshot" width="80%" />
+  <br>
+  <em>Demo screenshot of the Spotify Clone UI</em>
+</p>
+
 ## 💡 Customization
 
 - Add your own album covers or icons to `Assets/`
