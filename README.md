@@ -26,11 +26,9 @@ This project is a static, pixel-perfect clone of the Spotify web player interfac
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/card1img.jpeg" alt="Home - Featured playlists" width="80%"/>
-  <br><br>
-  <img src="assets/card2img.jpeg" alt="Browse - Album card" width="80%"/>
-  <br><br>
-  <img src="assets/play_musicbar.png" alt="Player bar UI" width="80%"/>
+  <img src="assets/img.png" alt="Demo Screenshot" width="80%" />
+  <br>
+  <em>Demo screenshot of the Spotify Clone UI</em>
 </p>
 
 > **Note:** All UI icons and album covers are stored in the `assets/` folder.
@@ -113,12 +111,6 @@ spotify-clone/
 - Uses CSS media queries for layout changes
 
 ---
-
-<p align="center">
-  <img src="assets/img.png" alt="Demo Screenshot" width="80%" />
-  <br>
-  <em>Demo screenshot of the Spotify Clone UI</em>
-</p>
 
 ## 💡 Customization
 
