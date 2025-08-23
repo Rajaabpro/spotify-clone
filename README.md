@@ -70,9 +70,6 @@ spotify-clone/
 │   ├── library_icon.png
 │   ├── forward_icon.png
 │   └── backward_icon.png
-├── screenshots/        # Project screenshots for README
-│   ├── screenshot1.jpg
-│   └── screenshot2.jpg
 └── README.md           # This file
 ```
 
